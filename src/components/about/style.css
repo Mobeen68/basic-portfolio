@@ -1,0 +1,31 @@
+.about {
+  margin-top: 20px;
+  display: flex;
+  background-color: #f5f5f5;
+}
+
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70%;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.about__profilePic {
+  width: 700px;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.about__text {
+  font-size: 18px;
+  flex-wrap: wrap;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-right: 20px;
+  margin-left: 20px;
+}/*# sourceMappingURL=style.css.map */
